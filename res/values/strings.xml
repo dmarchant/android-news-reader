@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News Reader</string>
+    
+    <string name="wifi_only_prompt">Wi-Fi Only?</string>
+    <string name="rss_url_prompt">RSS Feed URL</string>
+    
+    <!-- Menu Strings -->
+	<string name="menu_update">Refresh Articles</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_exit">Exit</string>
+	<string name="app_exit_message">Exit?</string>
+	<string name="str_no">No</string>
+	<string name="str_ok">OK</string>
+    
+    <!-- EULA -->
+    <string name="eula_title">License agreement</string>
+    <string name="eula_accept">Accept</string>
+    <string name="eula_refuse">Don\'t accept</string>
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_accept">Accept</string>
+
+</resources>

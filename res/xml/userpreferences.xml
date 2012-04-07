@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+    android:key="PREF_AUTO_UPDATE"
+    android:title="Wi-Fi Only"
+    android:summary="Select to only update on Wi-Fi" 
+    android:defaultValue="true"
+  />
+    <EditTextPreference
+        android:key="PREF_RSS_URL"
+        android:title="RSS Feed URL"
+        android:summary="Tap to change the RSS reed URL"
+        android:defaultValue="http://news.google.com/?output=rss"
+        android:inputType="textUri"
+        android:singleLine="false"
+        />                      
+</PreferenceScreen>
