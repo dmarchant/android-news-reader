@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
     <CheckBoxPreference
-    android:key="PREF_AUTO_UPDATE"
+    android:key="PREF_WIFI_ONLY"
     android:title="Wi-Fi Only"
     android:summary="Select to only update on Wi-Fi" 
-    android:defaultValue="true"
+    android:defaultValue="false"
   />
     <EditTextPreference
         android:key="PREF_RSS_URL"

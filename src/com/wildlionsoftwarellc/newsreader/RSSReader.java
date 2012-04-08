@@ -55,7 +55,7 @@ public class RSSReader extends Activity {
 	private LazyAdapter adapter;
 	ArrayList<HashMap<String, String>> articleList;
 
-	boolean wifionly = true;
+	boolean wifionly = false;
 	String rssFeedUrl = "http://news.google.com/?output=rss";
 
 	/** Called when the activity is first created. */
@@ -200,7 +200,7 @@ public class RSSReader extends Activity {
 	private void updateFromPreferences() {
 		Context context = getApplicationContext();
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-		wifionly = prefs.getBoolean(Preferences.PREF_WIFI_ONLY, true);
+		wifionly = prefs.getBoolean(Preferences.PREF_WIFI_ONLY, false);
 		rssFeedUrl = prefs.getString(Preferences.PREF_RSS_URL,
 				"http://news.google.com/?output=rss");
 	}
